@@ -450,6 +450,7 @@ start_server {tags {"introspection"}} {
             daemonize
             io-threads-do-reads
             tcp-backlog
+            mptcp
             always-show-logo
             syslog-enabled
             cluster-enabled
